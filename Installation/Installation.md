@@ -1,37 +1,59 @@
-Mettre à jour le système:
-Ouvrez un terminal et exécutez la commande suivante pour mettre à jour la liste des paquets et installer les mises à jour disponibles :
+# Installation de Python 3.8 sur Ubuntu
 
- 
-sudo apt update && sudo apt upgrade -y
-Installer les dépendances:
-Installez les paquets nécessaires pour ajouter un nouveau dépôt avec la commande suivante :
+Pour installer Python 3.8 sur Ubuntu, suivre les étapes ci-dessous:
 
- 
-sudo apt install -y software-properties-common
-Ajouter le dépôt "deadsnakes" PPA:
-Le PPA "deadsnakes" contient plusieurs versions de Python, y compris Python 3.8. Ajoutez le PPA avec la commande suivante :
+1. **Mettre à jour le système**
 
- 
-sudo add-apt-repository ppa:deadsnakes/ppa
-Confirmez l'ajout du dépôt en appuyant sur "Enter".
+    Ouvrir un terminal et exécuter la commande suivante pour mettre à jour la liste des paquets et installer les mises à jour disponibles :
 
-Installer Python 3.8:
-Mettez à jour la liste des paquets et installez Python 3.8 avec la commande suivante :
+    ``` 
+    sudo apt update && sudo apt upgrade -y
+    ```
 
- 
-sudo apt update && sudo apt install -y python3.8
-Vérifier l'installation:
-Vérifiez que Python 3.8 est installé en exécutant la commande suivante :
+2. **Installer les dépendances**
 
- 
-python3.8 --version
-Si l'installation a réussi, la version de Python 3.8 sera affichée.
+    Installer les paquets nécessaires pour ajouter un nouveau dépôt avec la commande suivante :
 
-Installer pip pour Python 3.8 (optionnel) :
-Si vous souhaitez installer pip pour gérer les paquets Python pour Python 3.8, exécutez la commande suivante :
+    ``` 
+    sudo apt install -y software-properties-common
+    ```
 
- 
-sudo apt install -y python3.8-venv python3.8-dev
-wget https://bootstrap.pypa.io/get-pip.py
-python3.8 get-pip.py
-Cela installera pip pour Python 3.8 et vous pourrez l'utiliser avec la commande pip3.8.
+3. **Ajouter le dépôt "deadsnakes" PPA**
+
+    Le PPA "deadsnakes" contient plusieurs versions de Python, y compris Python 3.8. Ajouter le PPA avec la commande suivante :
+
+    ``` 
+    sudo add-apt-repository ppa:deadsnakes/ppa
+    ```
+
+    Confirmer l'ajout du dépôt en appuyant sur "Enter".
+
+4. **Installer Python 3.8**
+
+    Mettre à jour la liste des paquets et installer Python 3.8 avec la commande suivante :
+
+    ``` 
+    sudo apt update && sudo apt install -y python3.8
+    ```
+
+5. **Vérifier l'installation**
+
+    Vérifier que Python 3.8 est installé en exécutant la commande suivante :
+
+    ``` 
+    python3.8 --version
+    ```
+
+    Si l'installation a réussi, la version de Python 3.8 sera affichée.
+
+6. **Installer pip pour Python 3.8 (optionnel)**
+
+    Si l'installation de pip pour gérer les paquets Python pour Python 3.8 est souhaitée, exécuter les commandes suivantes :
+
+    ``` 
+    sudo apt install -y python3.8-venv python3.8-dev
+    wget https://bootstrap.pypa.io/get-pip.py
+    python3.8 get-pip.py
+    ```
+
+    Ceci installe pip pour Python 3.8, qui pourra être utilisé avec la commande `pip3.8`.

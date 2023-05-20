@@ -1,17 +1,37 @@
-Pour installer Python sur Ubuntu, procédez comme suit:
-1.	Ouvrez une fenêtre de terminal en appuyant sur Ctrl+Alt+T.
-2.	Mettez à jour la liste des packages en exécutant la commande suivante :
+# Installation de Python sur Ubuntu
 
-sudo apt-get update
+Pour installer Python sur Ubuntu, suivre les étapes ci-dessous:
 
-3.	Installez Python en exécutant la commande suivante :
+1. **Ouvrir une fenêtre de terminal**
 
-sudo apt-get install python3 
+    Utiliser le raccourci `Ctrl+Alt+T`.
 
-Remarque: Ubuntu 20.04 et les versions ultérieures sont livrés avec Python 3 préinstallé. Si vous devez installer Python 2, vous pouvez le faire en exécutant sudo apt-get install python.
-4.	Vérifiez l’installation en exécutant la commande suivante :
+2. **Mettre à jour la liste des packages**
 
-python3 --version 
+    Exécuter la commande suivante :
 
-Cela devrait afficher la version de Python installée sur votre système.
-Voilà! Python est maintenant installé sur votre système Ubuntu.
+    ``` 
+    sudo apt-get update
+    ```
+
+3. **Installer Python**
+
+    Exécuter la commande suivante :
+
+    ``` 
+    sudo apt-get install python3
+    ```
+
+    > Remarque: À partir de la version 20.04, Ubuntu est livré avec Python 3 préinstallé. Si l'installation de Python 2 est nécessaire, exécuter `sudo apt-get install python`.
+
+4. **Vérifier l'installation**
+
+    Exécuter la commande suivante :
+
+    ``` 
+    python3 --version
+    ```
+
+    Cette commande affiche la version de Python installée sur le système.
+
+Et voilà! Python est maintenant installé sur le système Ubuntu.
