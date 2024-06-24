@@ -1,7 +1,7 @@
 
 # Mini Projet Python Utile
 
-Bienvenue dans le dossier **mini projet python utile** de notre dépôt Git privé. Ce dossier contient des fiches de révision conçues pour vous aider à vous lancer avec Python. Que vous soyez un débutant ou que vous cherchiez à rafraîchir vos connaissances, ces fiches couvrent les étapes essentielles pour réaliser un projet Python simple.
+Ce dossier contient des fiches de révision conçues pour vous aider à vous lancer avec Python. Que vous soyez un débutant ou que vous cherchiez à rafraîchir vos connaissances, ces fiches couvrent les étapes essentielles pour réaliser un projet Python simple.
 
 ## Contenu
 
